@@ -4,22 +4,22 @@
 //Instagram: mikael_jordan
 //Telegram: t.me/darklimule
 //GitHub: @Limule3650
-//WhatsApp: +237693538738
+//WhatsApp: +2347038003702
 //want more free bot scripts? subscribe to my youtube channel: https://www.youtube.com/@Darklimule
 
 const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "237698581946"
-global.ownername = "🐉Limule Solitarus"
+global.ownernomer = "2347038003702"
+global.ownername = "MR ANONYMOUS"
 global.ytname = "YT: Deaethgun635"
 global.socialm = "GitHub: Limule3650"
-global.location = "Cameroon, Yaounde"
+global.location = "Canada"
 
-global.ownernumber = '237698581946'  //creator number
-global.ownername = '🐉Limule Solitarus' //owner name
-global.botname = '💞𝐒𝐇𝐔𝐍𝐀_𝐁𝐔𝐆-𝐁𝐎𝐓💞' //name of the bot
+global.ownernumber = '2347038003702'  //creator number
+global.ownername = 'MR ANONYMOUS' //owner name
+global.botname = '👹𝐒𝐇𝐔𝐍𝐀_𝐁𝐔𝐆-𝐁𝐎𝐓😈' //name of the bot
 
 //sticker details
 global.packname = '🍭𝐒𝐞𝐱𝐲 𝐒𝐡𝐮𝐧𝐚-𝐛𝐨𝐭'
@@ -63,7 +63,7 @@ global.mess = {
     prem: '𝑵𝒐 𝒏𝒐 𝒎𝒚 𝒉𝒆𝒂𝒓𝒕🤧 𝒕𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒐𝒏𝒍𝒚 𝒃𝒚 𝑳𝒊𝒎𝒖𝒍𝒆😍 𝒐𝒓 𝒑𝒓𝒆𝒎𝒊𝒖𝒎 𝒖𝒔𝒆𝒓𝒔 𝒐𝒏𝒍𝒚🫠',
     admin: '𝑵𝒂𝒉𝒉𝒉 𝒃𝒂𝒃𝒆🤧 𝒕𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒐𝒏𝒍𝒚 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒃𝒚 𝒂𝒅𝒎𝒊𝒏🍭',
     botAdmin: '𝑺𝒘𝒆𝒆𝒕𝒚🥺 𝒕𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒐𝒏𝒍𝒚 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒘𝒉𝒆𝒏 𝑺𝒉𝒖𝒏𝒂 𝒊𝒔 𝒂𝒅𝒎𝒊𝒏\n\n𝑷𝒓𝒐𝒎𝒐𝒕𝒆 𝒔𝒉𝒖𝒏𝒂💞☺️',
-    owner: '𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒐𝒏𝒍𝒚 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒃𝒚 𝑳𝒊𝒎𝒖𝒍𝒆😍💞 𝒐𝒓 𝒎𝒚 𝒐𝒘𝒏𝒆𝒓 𝒅𝒂𝒓𝒍𝒊𝒏𝒈🍭',
+    owner: '𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒐𝒏𝒍𝒚 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒃𝒚 ANONYMOUS 😍💞 𝒐𝒓 𝒎𝒚 𝒐𝒘𝒏𝒆𝒓 𝒅𝒂𝒓𝒍𝒊𝒏𝒈🍭',
     group: '𝑫𝒂𝒓𝒍𝒊𝒏𝒈🍭 𝒕𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒈𝒓𝒐𝒖𝒑𝒔',
     private: '𝑫𝒂𝒓𝒍𝒊𝒏𝒈 𝒕𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒄𝒂𝒏 𝒐𝒏𝒍𝒚 𝒃𝒆 𝒖𝒔𝒆𝒅 𝒘𝒉𝒆𝒏 𝒕𝒘𝒐 𝒐𝒇 𝒖𝒔 𝒂𝒓𝒆....💋💦𝒊𝒏 𝒑𝒓𝒊𝒗𝒂𝒕𝒆 𝒄𝒉𝒂𝒕',
     wait: '𝑰𝒏 𝒑𝒓𝒐𝒄𝒆𝒔𝒔 𝒅𝒂𝒓𝒍𝒊𝒏𝒈🍭... ',    
